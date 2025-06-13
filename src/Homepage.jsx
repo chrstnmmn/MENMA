@@ -8,7 +8,9 @@ function Homepage() {
         menma
       </h1>
       <button className="w-[350px] h-[92px] rounded-[10px] border-white border-[3px] bg-[#0F0F0F] shadow-[0px_6px_0px_0px_rgba(255,50,132,1.00)] flex flex-col justify-center items-center translate-y-[-80px]">
-        <h1 className="w-[318px] h-[60px] rounded-[10px] bg-white text-[1.5rem] font-extrabold uppercase flex flex-col items-center justify-center">Visit Portfolio</h1>
+        <h1 className="w-[318px] h-[60px] rounded-[10px] bg-white text-[1.5rem] font-extrabold uppercase flex flex-col items-center justify-center">
+          Visit Portfolio
+        </h1>
       </button>
     </div>
   );
