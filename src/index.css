@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
 body {
-  font-family: "Inter", sans-serif;
+	font-family: "Inter", sans-serif;
+}
+
+.container {
+	border-radius: 0.625rem;
+	border: 3px solid #fff;
+
+	background: #0f0f0f;
+
+	/* PinkShaow_01 */
+	box-shadow: 0px 6px 0px 0px #ff3284;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
