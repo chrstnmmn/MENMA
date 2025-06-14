@@ -32,30 +32,30 @@ function Dashboard() {
     "github",
   ];
   return (
-    <div className="grid grid-cols-[auto_auto] grid-rows-[auto] gap-y-3 gap-x-1.5 justify-center items-center text-white text-center">
-      <div className="container profile max-w-72 h-28 grid-col-span-2 p-4 flex flex-row justify-center gap-x-3 align-center">
+    <div className="grid grid-cols-[auto_auto] grid-rows-[auto] gap-y-3 gap-x-1.5 justify-center items-center text-white text-center w-full px-2">
+      <div className="container profile min-w-40 h-20 sm:h-28 grid-col-span-2 flex flex-row justify-center gap-x-1 sm:gap-x-2 items-center">
         <img
           src={Profile_Picture}
           alt="My Picture"
-          className="w-[5.0625rem] h-[5.0625rem] pointer-none select-none"
+          className="max-w-[4rem] sm:w-[5rem] pointer-events-none select-none"
         />
-        <div className="flex flex-col justify-start items-center select-none pointer-none">
-          <h1 className="text-white text-[2.5rem] uppercase font-extrabold">
+        <div className="flex flex-col justify-start items-start select-none pointer-events-none">
+          <h1 className="text-white text-start text-[1.5rem] sm:text-[1.8rem] uppercase font-extrabold">
             menma
           </h1>
-          <h2 className="text-white text-[0.625rem] uppercase font-extrabold translate-y-[-.8rem]">
+          <h2 className="text-white text-start text-[.5rem] sm:text-[0.5rem] uppercase font-extrabold translate-y-[-.5rem]">
             Christian Emmanuel Collo
           </h2>
         </div>
       </div>
-      <div className="container CTA w-24 h-28">
-        <button className="bg-white w-[4.7rem] h-[5.75rem] rounded-[0.625rem] flex justify-center items-center">
+
+      <div className="container CTA min-w-18 sm:w-28">
+        <button className="bg-white w-[4.7rem] h-[3.7rem] sm:w-[5.5rem] sm:h-[4.5rem] rounded-[0.625rem] flex justify-center items-center hover:bg-gray-200 transition-colors">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="44"
-            height="44"
             viewBox="0 0 44 44"
             fill="none"
+            className="w-10 sm:w-12 text-stone-950"
           >
             <path
               d="M42.625 15.125C42.6234 13.6668 42.0434 12.2688 41.0123 11.2377C39.9812 10.2066 38.5832 9.62659 37.125 9.625H33V8.25C32.9989 7.15633 32.5639 6.10778 31.7906 5.33444C31.0172 4.5611 29.9687 4.12614 28.875 4.125H15.125C14.0313 4.12614 12.9828 4.5611 12.2094 5.33444C11.4361 6.10778 11.0011 7.15633 11 8.25V9.625H6.875C5.4168 9.62659 4.01878 10.2066 2.98767 11.2377C1.95657 12.2688 1.37659 13.6668 1.375 15.125V19.25H42.625V15.125ZM30.25 9.625H13.75V8.25C13.75 7.88533 13.8949 7.53559 14.1527 7.27773C14.4106 7.01987 14.7603 6.875 15.125 6.875H28.875C29.2397 6.875 29.5894 7.01987 29.8473 7.27773C30.1051 7.53559 30.25 7.88533 30.25 8.25V9.625Z"
@@ -68,7 +68,8 @@ function Dashboard() {
           </svg>
         </button>
       </div>
-      <div className="container AboutMe col-span-2 h-48">
+
+      {/* <div className="container AboutMe col-span-2 h-48">
         <div>
           <h1 className="text-start text-white text-4xl font-bold uppercase">
             welcome
@@ -87,7 +88,7 @@ function Dashboard() {
           Tools & skills
         </h1>
       </div>
-      <div className="container SkillTags w-96 h-28 col-span-2">
+      <div className="container SkillTags h-28 col-span-2">
         <div className="wrapper flex flex-row flex-wrap gap-1.5 justify-start items-start p-4">
           {skillTags.map((skillTag) => (
             <h1
@@ -98,7 +99,7 @@ function Dashboard() {
             </h1>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
