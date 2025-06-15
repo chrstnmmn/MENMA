@@ -1,7 +1,9 @@
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+
+export default {
   theme: {
     screens: {
-      'sm': '576px',    // Small devices (phones)
+      'sm': '357px',    // Small devices (phones)
       'md': '768px',    // Tablets
       'lg': '992px',    // Desktops
       'xl': '1200px',   // Large desktops
