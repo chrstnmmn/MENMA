@@ -65,7 +65,13 @@ function TitlePage() {
 function Dashboard() {
   return (
     <div className="grid grid-cols-[17.125rem] grid-rows-[4.8125rem_3.25rem_9.9375rem_2.4375rem_9.0625rem_3.25rem_2.4375rem_4.375rem] gap-y-3">
-      <div className="container Profile"></div>
+      <div className="container Profile text-white flex flex-row justify-items-center items-center gap-x-2.5">
+				<img src={Profile_Picture} alt="My Picture" className="w-[3.8125rem]"></img>
+				<div className="grid grid-rows-[auto auto] justify-items-start">
+					<h1 className="text-4xl font-extrabold uppercase translate-y-[.25rem]">menma</h1>
+					<h2 className="text-[0.625rem] font-extrabold uppercase  translate-y-[-.25rem]">Christian Emmanuel Collo</h2>
+				</div>
+			</div>
       <div className="container CTAHire"></div>
       <div className="container AboutMe"></div>
       <div className="container ToolsTitle"></div>
