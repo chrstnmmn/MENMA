@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
 body {
-	font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
-	border-radius: 0.625rem;
-	border: 3px solid #fff;
+  border-radius: 0.625rem;
+  border: 3px solid #fff;
 
-	background: #0f0f0f;
+  background: #0f0f0f;
 
-	/* PinkShaow_01 */
-	box-shadow: 0px 6px 0px 0px #ff3284;
+  /* PinkShaow_01 */
+  box-shadow: 0px 6px 0px 0px #ff3284;
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.wrapperGrid {
+  display: grid;
+  column-gap: 6px;
+  row-gap: 12px;
+  grid-template-columns:  200px 68px;
+  grid-template-rows: 77px 159px;
+  grid-template-areas:
+    "profile CTA"
+    "aboutMe aboutMe";
+}
+
+@media screen and (min-width: 450px) {
+  .wrapperGrid {
+    grid-template-columns: 278px 98px;
+    grid-template-rows: 111px 191px;
+  }
+}
+
+.profile {
+  grid-area: profile;
+}
+
+.CTA {
+  grid-area: CTA;
+}
+
+.aboutMe {
+  grid-area: aboutMe;
 }
 
 @theme {
-	--breakpoint-xxs: 357px;
-	--breakpoint-2xl: 100rem;
-	--breakpoint-3xl: 120rem;
+  --breakpoint-xxs: 357px;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
 }
