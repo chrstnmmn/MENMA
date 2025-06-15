@@ -24,7 +24,7 @@ function TitlePage() {
 				{/* Row 3: Button - made fully responsive */}
 				<button
 					className="row-start-3 relative 
-            w-[clamp(150px,20vw,250px)] h-[clamp(50px,6vw,70px)]
+            w-[clamp(150px,15vw,250px)] h-[clamp(50px,6vw,70px)]
             mt-[clamp(.2rem,5vw,1rem)]
             rounded-[10px] border-white border-[3px] bg-[#0F0F0F] 
             shadow-[0px_6px_0px_0px_rgba(255,50,132,1.00)] 
