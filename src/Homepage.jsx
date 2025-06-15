@@ -62,10 +62,25 @@ function TitlePage() {
   );
 }
 
+function Dashboard() {
+  return (
+    <div className="grid grid-cols-[17.125rem] grid-rows-[4.8125rem_3.25rem_9.9375rem_2.4375rem_9.0625rem_3.25rem_2.4375rem_4.375rem] gap-y-3">
+      <div className="container Profile"></div>
+      <div className="container CTAHire"></div>
+      <div className="container AboutMe"></div>
+      <div className="container ToolsTitle"></div>
+      <div className="container ToolsDisplay"></div>
+      <div className="container CTAExplore"></div>
+      <div className="container ConnectTitle"></div>
+      <div className="container SocialLinks"></div>
+    </div>
+  );
+}
+
 function Homepage() {
   return (
-    <div className="flex items-center justify-center h-[100vh] wrapper">
-      <TitlePage></TitlePage>
+    <div className="flex items-center justify-center h-[100%] py-10 wrapper">
+      <Dashboard></Dashboard>
     </div>
   );
 }
