@@ -62,20 +62,10 @@ function TitlePage() {
   );
 }
 
-function Dashboard() {
-  return (
-    <div className="wrapperGrid">
-      <div className="container profile "></div>
-      <div className="container CTA"></div>
-      <div className="container aboutMe"></div>
-    </div>
-  )
-}
-
 function Homepage() {
   return (
     <div className="flex items-center justify-center h-[100vh] wrapper">
-      <Dashboard></Dashboard>
+      <TitlePage></TitlePage>
     </div>
   );
 }

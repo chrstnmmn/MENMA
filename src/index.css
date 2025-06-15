@@ -19,36 +19,6 @@ body {
   padding: 0.5rem;
 }
 
-.wrapperGrid {
-  display: grid;
-  column-gap: 6px;
-  row-gap: 12px;
-  grid-template-columns:  200px 68px;
-  grid-template-rows: 77px 159px;
-  grid-template-areas:
-    "profile CTA"
-    "aboutMe aboutMe";
-}
-
-@media screen and (min-width: 450px) {
-  .wrapperGrid {
-    grid-template-columns: 278px 98px;
-    grid-template-rows: 111px 191px;
-  }
-}
-
-.profile {
-  grid-area: profile;
-}
-
-.CTA {
-  grid-area: CTA;
-}
-
-.aboutMe {
-  grid-area: aboutMe;
-}
-
 @theme {
   --breakpoint-xxs: 357px;
   --breakpoint-2xl: 100rem;
