@@ -6,7 +6,7 @@ import Homepage from "./Homepage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className="bg-[#0f0f0f]">
+    <div className="bg-[#0f0f0f] h-full">
       <Homepage />
     </div>
   </StrictMode>
