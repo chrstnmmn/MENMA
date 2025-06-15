@@ -55,7 +55,7 @@ Error generating stack: `+u.message+`
             shadow-[0px_6px_0px_0px_rgba(255,50,132,1.00)] \r
             hover:shadow-[0px_6px_0px_0px_rgba(131,39,237,1.00)] \r
             duration-150 ease-out flex justify-center items-center group button-animate`,children:mt.jsx("span",{className:`w-[calc(100%-14px)] h-[calc(100%-14px)] rounded-[8px] \r
-              text-[clamp(0.8rem,1.5vw,3.2rem)] \r
+              text-[clamp(0.8rem,1vw,1.2rem)] \r
               bg-white hover:bg-[#FF3183] hover:text-[#FFFFFF] \r
               duration-150 ease-out font-extrabold uppercase \r
               flex items-center justify-center group-hover:bg-[#FF3183] group-hover:text-white`,children:"Visit Portfolio"})})]})})}function Xd(){return mt.jsx("div",{className:"flex items-center justify-center h-[100vh] wrapper ",children:mt.jsx(Gd,{})})}xd.createRoot(document.getElementById("root")).render(mt.jsx(Rd.StrictMode,{children:mt.jsx("div",{className:"bg-[#0f0f0f]",children:mt.jsx(Xd,{})})}));

@@ -33,7 +33,7 @@ function TitlePage() {
 				>
 					<span
 						className="w-[calc(100%-14px)] h-[calc(100%-14px)] rounded-[8px] 
-              text-[clamp(0.8rem,1.5vw,3.2rem)] 
+              text-[clamp(0.8rem,1vw,1.2rem)] 
               bg-white hover:bg-[#FF3183] hover:text-[#FFFFFF] 
               duration-150 ease-out font-extrabold uppercase 
               flex items-center justify-center group-hover:bg-[#FF3183] group-hover:text-white"
