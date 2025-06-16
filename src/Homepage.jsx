@@ -175,15 +175,15 @@ function Dashboard() {
         </div>
       </div>
       <div className="container SocialLinks">
-        <div className="wrapperLinks flex flex-row gap-x-1 xs:gap-x-2">
+        <div className="wrapperLinks flex flex-row gap-x-1.5">
           {socialIcons.map((icon, index) => (
             <button
               key={index}
-              className="w-12 xxs:w-14 xs:w-17 h-12 xxs:h-14 xs:h-17 bg-white rounded-[10px] grid justify-center items-center"
+              className="p-2 bg-white rounded-[10px] grid justify-center items-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-7 h-7 xxs:w-9 xxs:h-9 xs:w-11 xs:h-11"
+                className="w-full h-full"
                 viewBox={icon.viewBox}
                 fill="none"
               >
