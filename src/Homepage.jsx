@@ -110,7 +110,7 @@ function Dashboard() {
   ];
 
   return (
-    <div className="grid grid-cols-[17.125rem] xxs:grid-cols-[20.125rem] xs:grid-cols-[25.125rem] grid-rows-[auto_3.25rem_auto_2.4375rem_auto_3.25rem_2.4375rem_auto] gap-y-3">
+    <div className=" mx-5 grid grid-cols-[w-full] grid-rows-[auto_3.25rem_auto_2.4375rem_auto_3.25rem_2.4375rem_auto] gap-y-3">
       <div className="container Profile text-white flex flex-row justify-items-center items-center gap-x-2.5">
         <img
           src={Profile_Picture}
