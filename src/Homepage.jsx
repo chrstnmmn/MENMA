@@ -110,7 +110,7 @@ function Dashboard() {
 	];
 
 	return (
-		<div className="grid grid-cols-[17.125rem] grid-rows-[4.8125rem_3.25rem_9.9375rem_2.4375rem_9.0625rem_3.25rem_2.4375rem_4.375rem] gap-y-3">
+		<div className="grid grid-cols-[17.125rem] xxs:grid-cols-[20.125rem] xs:grid-cols-[25.125rem] grid-rows-[4.8125rem_3.25rem_auto_2.4375rem_auto_3.25rem_2.4375rem_4.375rem] gap-y-3">
 			<div className="container Profile text-white flex flex-row justify-items-center items-center gap-x-2.5">
 				<img
 					src={Profile_Picture}
@@ -127,16 +127,16 @@ function Dashboard() {
 				</div>
 			</div>
 			<div className="container CTAHire">
-				<button className="w-64 h-8 bg-white rounded-[10px] text-center justify-center text-black text-xl font-extrabold uppercase">
+				<button className="w-full h-8 bg-white rounded-[10px] text-center justify-center text-black text-xl font-extrabold uppercase">
 					hire me
 				</button>
 			</div>
 			<div className="container AboutMe justify-items-center items-center">
-				<div className="grid grid-rows-[auto auto]">
+				<div className="grid w-full grid-rows-[auto auto]">
 					<h1 className="w-52 text-white text-2xl text-start font-bold uppercase translate-y-0.5">
 						welcome
 					</h1>
-					<p className="w-64 text-white text-start text-[.65rem] font-semibold translate-y-[-0.125rem]">
+					<p className="w-full text-white text-start text-[.65rem] font-semibold translate-y-[-0.125rem]">
 						Hi, I'm a UI/UX and Web Designer passionate about
 						creating clean, functional, and user-friendly digital
 						experiences. This portfolio showcases my work from
@@ -167,7 +167,7 @@ function Dashboard() {
 				</div>
 			</div>
 			<div className="container CTAExplore">
-				<button className="w-64 h-8 bg-white rounded-[10px] text-center justify-center text-black text-xl font-extrabold uppercase">
+				<button className="w-full h-8 bg-white rounded-[10px] text-center justify-center text-black text-xl font-extrabold uppercase">
 					Explore Projects
 				</button>
 			</div>
