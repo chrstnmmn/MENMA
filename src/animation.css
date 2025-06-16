@@ -124,3 +124,64 @@
 .animate-buttonExit {
 	animation: fadeOut 0.4s cubic-bezier(0.4, 0, 0.2, 1) 0.4s forwards;
 }
+
+/* Smoother scale animation with bounce effect */
+@keyframes smoothScaleIn {
+	0% {
+		transform: scale(0.95);
+		opacity: 0;
+	}
+	70% {
+		transform: scale(1.03);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+/* Faster container animations with shorter delays */
+.container {
+	animation: smoothScaleIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.1) forwards;
+	opacity: 0;
+}
+
+/* Staggered animations with tighter timing */
+.Profile {
+	animation-delay: 0.1s;
+}
+
+.CTAHire {
+	animation-delay: 0.125s;
+}
+
+.AboutMe {
+	animation-delay: 0.150s;
+}
+
+.ToolsTitle {
+	animation-delay: 0.175s;
+}
+
+.ToolsDisplay {
+	animation-delay: 0.2s;
+}
+
+.CTAExplore {
+	animation-delay: 0.225s;
+}
+
+.ConnectTitle {
+	animation-delay: 0.250s;
+}
+
+.SocialLinks {
+	animation-delay: 0.275s;
+}
+
+/* Subtle hover effect */
+.container:hover {
+	transform: scale(1.01);
+	transition: transform 0.15s ease-out;
+}
