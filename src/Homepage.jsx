@@ -136,7 +136,7 @@ function Dashboard() {
           <h1 className="w-52 text-white text-2xl text-start font-bold uppercase translate-y-0.5">
             welcome
           </h1>
-          <p className="w-full text-white text-start text-[.65rem] font-semibold translate-y-[-0.125rem]">
+          <p className="w-full text-white text-start text-[.65rem] xxs:text-[.75rem] xs:text-[.78rem] font-semibold translate-y-[-0.125rem]">
             Hi, I'm a UI/UX and Web Designer passionate about creating clean,
             functional, and user-friendly digital experiences. This portfolio
             showcases my work from intuitive interfaces to responsive web
