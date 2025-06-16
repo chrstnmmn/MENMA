@@ -224,7 +224,7 @@ function Homepage() {
   return (
     <div
       className={`flex flex-col items-center justify-center ${
-        showDashboard ? "h-full py-10" : "h-screen"
+        showDashboard ? "h-full py-5" : "h-screen"
       } wrapper`}
     >
       {!showDashboard ? (
