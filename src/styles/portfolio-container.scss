@@ -40,6 +40,8 @@
 		transform: translateY(clamp(-6rem, -6vh, -6rem));
 		width: clamp(1rem, 3vw, 2rem);
 		display: grid;
+		left: 50%; // center horizontally
+		transform: translate(-50%, -6rem); // perfect alignment
 		place-items: center;
 	}
 }
