@@ -5,6 +5,7 @@
 	.trace {
 		position: absolute;
 		width: clamp(30rem, 40vw, 70rem);
+		max-width: 100vw;
 
 		pointer-events: none;
 		user-select: none;

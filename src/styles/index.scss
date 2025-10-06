@@ -27,6 +27,14 @@ dd {
 	margin: 0;
 }
 
+html,
+body {
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+	position: relative;
+}
+
 /* Set core body defaults */
 body {
 	min-height: 100vh;
@@ -43,10 +51,10 @@ body {
 	padding: 2rem;
 
 	background-color: $background;
-  font-family: $main-font;
+	font-family: $main-font;
 
-  // background-image: url("../img/background/grid.png ");
-  background-repeat: repeat;
+	// background-image: url("../img/background/grid.png ");
+	background-repeat: repeat;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
