@@ -1,0 +1,40 @@
+@import "index.scss";
+
+.hero-section {
+	width: 100%;
+
+	display: grid;
+	place-items: center;
+
+  .subtitle, .main-title {
+    user-select: none;
+    pointer-events: none;
+  }
+
+	.subtitle {
+		color: $accent-gray;
+		text-align: center;
+		font-family: $main-font;
+		font-style: normal;
+		font-weight: 800;
+		line-height: 1.1;
+		text-transform: uppercase;
+
+		// Dynamic font size: min 1.2rem → ideal 2vw → max 2rem
+		font-size: clamp(0.8rem, 2vw, 2rem);
+	}
+
+	.main-title {
+		color: $accent-gray;
+		text-align: center;
+		font-family: $main-font;
+		font-style: italic;
+		font-weight: 900;
+		line-height: 0.8;
+		letter-spacing: clamp(-0.3rem, 1vw, -1.25rem);
+		text-transform: uppercase;
+
+		// Dynamic font size: min 4rem → ideal 10vw → max 18rem
+		font-size: clamp(4rem, 20vw, 24rem);
+	}
+}

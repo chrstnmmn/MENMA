@@ -1,0 +1,14 @@
+{
+  "name": "menma-portfolio",
+  "version": "1.0.0",
+  "description": "This is my portfolio",
+  "private": true,
+  "scripts": {
+    "scss": "sass --watch scss:styles --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.80.0"
+  },
+  "author": "menma",
+  "license": "MIT"
+}
