@@ -1,5 +1,6 @@
 $background: #dedede;
 $accent-gray: #404040;
+$accent-light-gray: #D9D9D9;
 $accent-purple: #5f4aff;
 $glow-purple: (0 0 44.7px #ba7eff);
 $main-font: "Inter", sans-serif;
@@ -53,7 +54,8 @@ body {
 	background-color: $background;
 	font-family: $main-font;
 
-	// background-image: url("../img/background/grid.png ");
+	background-image: url("/src/assets/img/background/grid.png");
+	height: auto;
 	background-repeat: repeat;
 }
 

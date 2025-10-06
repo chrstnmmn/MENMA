@@ -1,0 +1,17 @@
+@import "index.scss";
+
+.intro-section {
+	display: grid;
+	place-items: center;
+
+	max-width: 85rem;
+	max-height: 47rem;
+
+	background-color: $accent-light-gray;
+	border-radius: 0.625rem;
+	border: 3px solid $accent-gray;
+
+	/* Box Shadow */
+	box-shadow: 6px 6px 0 0 $accent-gray;
+	padding: 1rem;
+}

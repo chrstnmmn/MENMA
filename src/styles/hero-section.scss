@@ -6,10 +6,56 @@
 	display: grid;
 	place-items: center;
 
-  .subtitle, .main-title {
-    user-select: none;
-    pointer-events: none;
-  }
+	.subtitle,
+	.main-title {
+		user-select: none;
+		pointer-events: none;
+	}
+
+	.traces {
+		.trace {
+			position: absolute;
+			width: clamp(30rem, 40vw, 70rem);
+
+			pointer-events: none;
+			user-select: none;
+
+			transition: transform 0.2s ease-out;
+			will-change: transform;
+			z-index: -1;
+		}
+
+		.trace-top-right {
+			top: 0;
+			right: 0;
+			transform: translate(
+				clamp(8rem, 10vw, 12rem),
+				clamp(2rem, 1vw, 3rem)
+			);
+		}
+
+		.trace-bottom-left {
+			bottom: 0;
+			left: 0;
+			transform: translate(
+				clamp(-12rem, -10vw, -12rem),
+				clamp(-6rem, -1vw, -5rem)
+			);
+		}
+	}
+
+	.down-arrow {
+		.down-icon {
+			position: absolute;
+			bottom: 0;
+			transform: translateY(clamp(-6rem, -6vh, -6rem));
+			width: clamp(1rem, 3vw, 2rem);
+			display: grid;
+			left: 50%; // center horizontally
+			transform: translate(-50%, -6rem); // perfect alignment
+			place-items: center;
+		}
+	}
 
 	.subtitle {
 		color: $accent-gray;
